@@ -1,0 +1,24 @@
+---
+layout: layout
+title: Prad Nelluru
+---
+
+<div class="content">
+  <div class="related">
+
+	<p>
+  	Hi! I'm Prad Nelluru, a third-year CS student at The University of Texas at Austin.
+  	</p>
+
+  	<span> You can reach me at prad.nelluru@gmail.com</span>
+
+  	<h3>My posts:</h3>
+    <ul>
+      {% for post in site.posts %}
+      <li>
+	<span>{{ post.date | date: "%b %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

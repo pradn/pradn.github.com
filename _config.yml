@@ -1,0 +1,14 @@
+auto: true
+markdown: rdiscount
+permalink: /:year/:month/:day/:title
+rdiscount extensions: [smart]
+
+pygments: true
+
+title: 'Prad Nelluru'
+author_name : 'Prad Nelluru'
+author_email: 'prad.nelluru@gmail.com'
+
+production_url: 'http://pradnelluru.com'
+
+mixpanel_token : '7e42004584a2acf9319681f7e6bb36ab'
