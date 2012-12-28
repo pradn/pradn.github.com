@@ -11,4 +11,4 @@ author_email: 'prad.nelluru@gmail.com'
 
 production_url: 'http://pradnelluru.com'
 
-mixpanel_token : '7e42004584a2acf9319681f7e6bb36ab'
+google_analytics_token: 'UA-37235443-1'
